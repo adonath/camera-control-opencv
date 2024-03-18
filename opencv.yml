@@ -1,0 +1,15 @@
+# Conda environment for opencv
+
+name: opencv
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.10
+  - opencv=4.9.0
+  - numpy=1.24
+  - ipython=8.16
+  - ipywidgets=8.1
+  - jupyter
+  - matplotlib=3.8
