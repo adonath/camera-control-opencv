@@ -1,11 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gammapy CTA Symposium Cam</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
 <body>
-    <div class="container">
+    <div class="container" style="margin: auto;width: 1280px;">
         <div class="row">
             <div class="col-lg-8  offset-lg-2">
-                <h3 class="mt-5">Gammapy Cam</h3>
-                <img src="{{ url_for('video_feed') }}" width="100%">
+                <h2 class="mt-5" style="text-align: center;">Gammapy CTA Symposium Cam</h3>
+                <img src="{{ url_for('video_feed') }}" width="1280px">
             </div>
+            <form method="post" action="{{ url_for('tasks') }}">
+            <input type="submit" value="Snapshot" name="snapshot"/>
         </div>
     </div>
 </body>
+</html>
     
