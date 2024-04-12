@@ -16,3 +16,6 @@ dependencies:
   - ipywidgets=8.1
   - jupyter
   - matplotlib=3.8
+  - pip:
+      - mediapipe==0.10.9
+      - cvzone==1.6.1
